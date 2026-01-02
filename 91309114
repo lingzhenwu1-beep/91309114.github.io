@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學號 91309114 - 企業心得報告</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 0; text-align: center; }
+        .card { transition: transform 0.3s; border: none; }
+        .card:hover { transform: translateY(-10px); }
+        .card-img-top { height: 180px; object-fit: contain; padding: 20px; background: #fdfdfd; }
+        footer { background: #212529; color: #aaa; padding: 30px 0; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">作業編號：91309114</span>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold">企業案例研究</h1>
+            <p class="lead">學生：[你的姓名] | 學號：91309114</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="card-img-top" alt="Google">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Google</h4>
+                        <p>全球科技巨頭，主導搜尋、廣告與 AI 領域。</p>
+                        <div class="alert alert-light">
+                            <strong>心得：</strong> Google 的創新文化令人佩服，特別是他們將大數據應用在日常生活中，讓資訊獲取變得極度平權。
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="card-img-top" alt="Apple">
+                    <div class="card-body">
+                        <h4 class="card-title text-dark">Apple</h4>
+                        <p>以卓越的設計與軟硬體整合聞名全球。</p>
+                        <div class="alert alert-light">
+                            <strong>心得：</strong> Apple 證明了精品化策略在科技業的可行性，其生態系的黏著度是我認為最成功的商業模式。
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/d/d3/PXMART_LOGO.svg/1200px-PXMART_LOGO.svg.png" class="card-img-top" alt="全聯">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">全聯 PXMART</h4>
+                        <p>台灣最具代表性的本土超市，成功轉型數位零售。</p>
+                        <div class="alert alert-light">
+                            <strong>心得：</strong> 全聯透過 PX Pay 成功吸引不同年齡層的使用者，這種接地氣的數位轉型策略非常值得學習。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <p>學號 91309114 課程作業專用</p>
+    </footer>
+
+</body>
+</html>
